@@ -1,0 +1,33 @@
+body{
+    background-image: url("img/web-bckgrnd1.png");
+}
+.topBanner{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.topBanner > div {
+    margin: 10px;
+    align-items: center;
+}
+
+.bottomBanner{
+    background-color: #363636;
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    justify-content: center;
+}
+
+.bottomBanner > div{
+    margin: 20px;
+    align-items: center;
+
+}
+
+.socialButton{
+    display: flex;
+    flex-wrap: nowrap;
+}
