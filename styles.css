@@ -12,22 +12,39 @@ body{
     margin: 10px;
     align-items: center;
 }
-
-.bottomBanner{
-    background-color: #363636;
+.center {
     display: flex;
-    flex-direction: row;
-    height: 75px;
+    flex-wrap: nowrap;
     justify-content: center;
 }
 
-.bottomBanner > div{
-    margin: 20px;
-    align-items: center;
-
+.bottomBanner {
+    overflow: hidden;
+    background-color: #363636;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
-.socialButton{
+.bottomBanner a{
+    float: left;
     display: flex;
-    flex-wrap: nowrap;
+    align-content: center;
+    padding: 10px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bottomBanner a:hover {
+    background: radial-gradient(101.74% 5274% at -1.74% 100%, #65428A 0%, #0097A9 100%);
+    border-style: hidden;
+    border-radius: 5px;
+    
+}
+.nombre {
+    font-style: normal;
+    font-family: "Roboto";
+    color: white;
+    text-align: center;
+    margin: 5px;
 }
