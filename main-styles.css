@@ -95,10 +95,9 @@ header {
 }
 
 .bottomBanner {
+    padding: 10px;
     overflow: hidden;
     background-color: #363636;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
 
