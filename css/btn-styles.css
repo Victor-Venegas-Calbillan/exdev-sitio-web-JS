@@ -1,5 +1,4 @@
-/*Idea sacada de uiverse.io*/
-/*botones gradiente*/
+/* GRADIENT BUTTONS */
 .btn {
   background: linear-gradient(-45deg, #65428A, #0097A9, #27c8b7, #65428A);
   background-size: 800% 400%;
@@ -39,8 +38,23 @@
   }
  }
 
- /*botones bottom*/
+ /* BOTTOM BUTTONS */
+ .btn-btm  {
+  padding: 1.3em 3em;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
 
- .btn-btm {
+.btn-btm:hover {
+  background: linear-gradient(45deg, #65428A, #0097A9);
+  box-shadow: 0px 15px 20px rgba(101, 66, 138, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
 
- }
+.btn-btm:active {
+  transform: translateY(-1px);
+}
