@@ -57,7 +57,7 @@ p {
 /* HEADER */
 header {
     background: var(--degraded);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     box-shadow: 0 8px 8px #00000033;
 }
 
@@ -66,7 +66,7 @@ header {
     justify-content: center;
     max-width: 800px;
     margin: 0 auto;
-    padding: 15px 0;
+    padding: 15px 30px;
 }
 
 .mainlogo {
@@ -91,7 +91,12 @@ header {
 }
 
 .subtitle {
+    max-width: 900px;
     color: var(--lightgray);
+}
+
+.space {
+    padding: 20px;
 }
 
 .center {
@@ -101,6 +106,8 @@ header {
 }
 
 /* BODY */
+/* SLIDESHOW */
+
 
 /* BOTTOM --> redes sociales */
 .bottomBanner {
