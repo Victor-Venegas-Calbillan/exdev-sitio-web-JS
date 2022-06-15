@@ -53,6 +53,10 @@ p {
     font-size: 21px;
 }
 
+li {
+    font-size: 21px;
+}
+
 /* FORMATO CONTENIDO */
 /* HEADER */
 header {
@@ -106,8 +110,19 @@ header {
 }
 
 /* BODY */
-/* SLIDESHOW */
+.contenido {
+    padding: 10px 40px;
+    height: auto;
+}
 
+.proyectos{
+    display: flex;
+    align-items: auto;
+    justify-content: auto;
+    text-align: auto;
+    flex-direction: column;
+    height: auto;
+}
 
 /* BOTTOM --> redes sociales */
 .bottomBanner {
