@@ -62,7 +62,7 @@ li {
 header {
     background: var(--degraded);
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 0 8px 8px #00000033;
+    box-shadow: 0 8px 8px var(--color_shadow);
 }
 
 .container {
@@ -111,19 +111,15 @@ header {
 
 /* BODY */
 .contenido {
+    padding: 40px;
+    height: auto;
+    background: var(--degraded);
+}
+.contenido-proy {
     padding: 10px 40px;
     height: auto;
+    background: var(--lightgray);
 }
-
-.proyectos{
-    display: flex;
-    align-items: auto;
-    justify-content: auto;
-    text-align: auto;
-    flex-direction: column;
-    height: auto;
-}
-
 /* BOTTOM --> redes sociales */
 .bottomBanner {
     padding: 10px;

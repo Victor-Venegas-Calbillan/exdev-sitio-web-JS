@@ -1,3 +1,23 @@
-.card {
-    height: 600px;
+.cards-orden{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.cards {
+    width: 500px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #f1f1f1f5;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px var(--color_shadow);
+}
+
+.cards-proy{
+    width: 500px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 8px 8px var(--color_shadow);
 }
