@@ -1,0 +1,64 @@
+/* Importaciones */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+/* Configuraciones Globales */
+:root {
+  --fondo: #0c030e;
+  --blanco: #ffffff;
+  --gris-oscuro: #191825;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+body {
+  background-color: var(--fondo);
+  color: var(--blanco);
+  font-size: 1.6rem;
+  line-height: 1.8;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* Menu Lateral */
+aside {
+  background-color: var(--gris-oscuro);
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 20%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Principal */
+.principal{
+  width: 80%;
+}
+
+
+/* Main */
+.main__text-degrade {
+  background: linear-gradient(84.07deg, #8d35c2 -0.02%, #01b7cd 100.02%);
+  background-clip: text;
+  font-size: 10rem;
+  font-family: "Source Sans Pro";
+  --webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
