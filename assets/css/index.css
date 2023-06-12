@@ -1,5 +1,6 @@
 /* Importaciones */
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
 
 /* Configuraciones Globales */
 :root {
@@ -11,6 +12,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 *,
@@ -41,8 +43,7 @@ aside {
   position: fixed;
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
