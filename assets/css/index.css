@@ -1,18 +1,21 @@
 /* Importaciones */
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
 
 /* Configuraciones Globales */
 :root {
   --fondo: #0c030e;
   --blanco: #ffffff;
   --gris-oscuro: #191825;
+  --gris-claro: #666666;
+  --morado: #8D35C2;
+  --morado--oscuro: #2A2842;
 }
 
 html {
   font-size: 62.5%;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 *,
@@ -47,11 +50,68 @@ aside {
   align-items: center;
 }
 
-/* Principal */
-.principal{
-  width: 80%;
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
 }
 
+.menu__container {
+  list-style: none;
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+.menu__item {
+  color: var(--gris-claro);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+
+.menu__item:hover{
+  color: var(--blanco);
+  transform: scale(1.3);
+}
+
+.menu__item--active {
+  color: var(--blanco);
+}
+
+.menu__footer__button{
+  background-color: var(--morado--oscuro);
+  color: var(--blanco);
+  border: .1rem solid var(--morado);
+  border-bottom: .5rem solid var(--morado);
+  border-radius: .5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: .6rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu__footer__button:hover{
+  background-color: var(--morado);
+  border: .1rem solid var(--morado--oscuro);
+  border-bottom: .5rem solid var(--morado--oscuro);
+  border-right: .5rem solid var(--morado--oscuro);
+}
+
+
+/* Principal */
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+  padding: 5rem;
+}
 
 /* Main */
 .main__text-degrade {
