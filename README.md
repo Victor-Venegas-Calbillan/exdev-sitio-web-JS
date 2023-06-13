@@ -1,4 +1,4 @@
-****Sitio web en construcción***
+****_Sitio web en construcción_***
 # Sitio web del club ExDev
  Este proyecto se basa en un sitio web donde se pueda centralizar toda la información con respecto a las actividades del club de desarrollo experimental (ExDev).
 
@@ -8,4 +8,5 @@
 ### Plataformas
  Las lineas de diseño está basado en los diseños de Figma, plataforma utilizada para el diseño de UI/UX, la comunicación oficial es en el Discord oficial del club.
 
- Link Figma (modo vista): https://www.figma.com/file/IE3nweyeMdpZpoLuf3ffVZ/Web-Design?type=design&node-id=18%3A502&t=NgxL9FvarKwweSnq-1 
+ 
+ <a href="https://www.figma.com/file/IE3nweyeMdpZpoLuf3ffVZ/Web-Design?type=design&node-id=18%3A502&t=NgxL9FvarKwweSnq-1">Link Figma (modo vista)</a> 
