@@ -28,6 +28,9 @@ html {
 
 body {
   background-color: var(--fondo);
+  background-image: url("../images/Degradado-web.svg");
+  background-size:cover;
+  background-repeat: no-repeat;
   color: var(--blanco);
   font-size: 1.6rem;
   line-height: 1.8;
