@@ -1,128 +1,76 @@
-/* Importaciones */
+@import url("./normalize.css");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
 
-/* Configuraciones Globales */
+/* Globales */
 :root {
-  --fondo: #0c030e;
   --blanco: #ffffff;
-  --gris-oscuro: #191825;
-  --gris-claro: #666666;
-  --morado: #8D35C2;
-  --morado--oscuro: #2A2842;
-}
-
-html {
-  font-size: 62.5%;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  --plomo-claro: #e4e4e4e4;
+  --negro: #000000;
+  --morado: #8d35c2;
+  --plomo: #666666;
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
   margin: 0rem;
   padding: 0rem;
 }
 
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: var(--fondo);
-  background-image: url("../images/Degradado-web.svg");
-  background-size:cover;
-  background-repeat: no-repeat;
-  color: var(--blanco);
-  font-size: 1.6rem;
-  line-height: 1.8;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--plomo-claro);
+  font-family: "Inter", "SourceSansPro", Arial, Helvetica,
+    sans-serif;
 }
 
-/* Menu Lateral */
-aside {
-  background-color: var(--gris-oscuro);
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 20%;
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
+/* Menu */
 .menu {
+  margin-top: 1rem;
+  width: 100vw;
+
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem;
+  padding: 0rem 8rem;
+  font-size: 2rem;
 }
 
-.menu__container {
+.menu__items__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
-  font-weight: 500;
-  font-size: 3rem;
+}
+
+.menu__logo__image {
+  width: 20rem;
 }
 
 .menu__item {
-  color: var(--gris-claro);
-  cursor: pointer;
+  font-size: 2.5rem;
   text-decoration: none;
-  transition: all 0.3s ease-in-out;
+  color: var(--plomo);
+  font-weight: 500;
   display: block;
-}
-
-.menu__item:hover{
-  color: var(--blanco);
-  transform: scale(1.3);
+  width: 100%;
+  padding: 2rem;
 }
 
 .menu__item--active {
-  color: var(--blanco);
-}
-
-.menu__footer__button{
-  background-color: var(--morado--oscuro);
-  color: var(--blanco);
-  border: .1rem solid var(--morado);
-  border-bottom: .5rem solid var(--morado);
-  border-radius: .5rem;
-  font-size: 2rem;
-  font-weight: 700;
-  padding: .6rem;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-
-.menu__footer__button:hover{
-  background-color: var(--morado);
-  border: .1rem solid var(--morado--oscuro);
-  border-bottom: .5rem solid var(--morado--oscuro);
-  border-right: .5rem solid var(--morado--oscuro);
-}
-
-
-/* Principal */
-.principal {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  height: 100vh;
-  padding: 5rem;
-}
-
-/* Main */
-.main__text-degrade {
-  background: linear-gradient(84.07deg, #8d35c2 -0.02%, #01b7cd 100.02%);
-  background-clip: text;
-  font-size: 10rem;
-  font-family: "Source Sans Pro";
-  --webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--negro);
+  border-bottom: 5px solid var(--morado);
 }
